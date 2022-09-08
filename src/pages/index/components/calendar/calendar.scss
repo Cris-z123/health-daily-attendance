@@ -1,14 +1,16 @@
 .table {
     box-sizing: border-box;
-    margin: 0 6%;
+    margin: 0 4% 2% 4%;
     background-color: rgb(240 249 255);
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
     .table-head {
         display: flex;
         justify-content: center;
         .table-head-content {
             font-weight: bold;
             width: 10%;
-            margin: 1%;
+            margin: 2%;
+            line-height: 60px;
             text-align: center;
             border: 1px solid rgb(56 189 248);
             border-radius: 8px;
@@ -20,10 +22,24 @@
         justify-content: center;
         .table-body-content {
             width: 10%;
-            margin: 1%;
+            margin: 2%;
+            line-height: 64px;
             text-align: center;
-            border: 1px solid rgb(56 189 248);
-            border-radius: 8px;
+            background-color: rgb(203 213 225);
+            border-radius: 9999px;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
         }
     }
+}
+
+.daily-attendance-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 4%;
+    text-align: center;
+    font-size: 44px;
+    line-height: 80px;
+    border: 1px solid rgb(14 165 233);
+    border-radius: 6px;
 }
