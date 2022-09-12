@@ -1,0 +1,17 @@
+view,
+text {
+  box-sizing: border-box;
+}
+
+button {
+  all: initial;
+  position: relative;
+}
+button::after {
+  border: none;
+}
+input {
+  outline: none;
+  border: none;
+  list-style: none;
+}
