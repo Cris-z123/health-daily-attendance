@@ -1,21 +1,20 @@
-import { Component, PropsWithChildren } from 'react'
-import { View, Text } from '@tarojs/components'
-import Calendar from './components/calendar/Calendar'
-import './index.scss'
+import { Component, PropsWithChildren } from "react";
+import { View, Text } from "@tarojs/components";
+import Calendar from "./components/calendar/Calendar";
+import "./index.scss";
 
 export default class Index extends Component<PropsWithChildren> {
+  componentWillMount() { }
 
-  componentWillMount () { }
+  componentDidMount() { }
 
-  componentDidMount () { }
+  componentWillUnmount() { }
 
-  componentWillUnmount () { }
+  componentDidShow() { }
 
-  componentDidShow () { }
+  componentDidHide() { }
 
-  componentDidHide () { }
-
-  render () {
+  render() {
     return (
       <View className='index'>
         <Calendar></Calendar>
