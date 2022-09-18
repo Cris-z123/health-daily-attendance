@@ -51,7 +51,7 @@ export default () => {
   }
 
   return (
-    <View>
+    <View className='calendar'>
       <View className='cur-year-month'>
         <View className='triangle-left' onClick={() => { toggleMonth('left') }}></View>
         <View>
@@ -83,8 +83,8 @@ export default () => {
         </View>
       </View>
       <Button className='daily-attendance-button'>
-        <Text>已坚持300天</Text>
+        <Text>已坚持300天 ✌</Text>
       </Button>
-    </View >
+    </View>
   );
 };
