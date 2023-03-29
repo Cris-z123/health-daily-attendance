@@ -1,6 +1,6 @@
 import { View, Text, Button } from "@tarojs/components";
 import { useState } from "react";
-import './target.scss'
+import './target.scss';
 
 const HealthItem = [
   { id: '123456', content: '坚持低糖', status: 'FINISHED', },
