@@ -18,6 +18,7 @@ export default () => {
             <View className='target-item' key={item.id}>
               <View className='target-item-text'>{item.content}</View>
               <View className='target-item-button'> {item.status === 'UNFINISHED' ? '✅' : '❌'}</View>
+              <View>2</View>
               <View>1</View>
             </View>
           )
