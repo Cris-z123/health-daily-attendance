@@ -1,5 +1,4 @@
 import { View, Text, Button } from "@tarojs/components";
-import { useState } from "react";
 import './target.scss';
 
 const HealthItem = [
